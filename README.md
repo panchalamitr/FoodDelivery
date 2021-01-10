@@ -15,7 +15,9 @@ Also I have used following things
 
 
 **Video**
-[![Everything Is AWESOME](https://yt-embed.herokuapp.com/embed?v=StTqXEQ2l-Y)](https://www.youtube.com/watch?v=lTd2gEEzjaI "Everything Is AWESOME")
+
+
+[![Everything Is AWESOME](https://github.com/panchalamitr/FoodDelivery/blob/main/screenshot/FoodDeliverAppYouTube.png)](https://www.youtube.com/watch?v=lTd2gEEzjaI "Everything Is AWESOME")
   
 
 **Screenshots**
