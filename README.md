@@ -14,8 +14,12 @@ Also I have used following things
   - RoundedImageView
 
 
-**Video Link**
-https://youtu.be/lTd2gEEzjaI
+**Video**
+   <iframe width="560" height="315"
+src="https://www.youtube.com/embed/lTd2gEEzjaI" 
+frameborder="0" 
+allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+allowfullscreen></iframe>
 
 **Screenshots**
 
