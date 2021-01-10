@@ -19,6 +19,6 @@ https://youtu.be/lTd2gEEzjaI
 
 **Screenshots**
 
-<img src="https://github.com/panchalamitr/FoodDelivery/blob/main/screenshot/1.png" width="320" height="480">
-<img src="https://github.com/panchalamitr/FoodDelivery/blob/main/screenshot/2.png" width="320" height="480">
-<img src="https://github.com/panchalamitr/FoodDelivery/blob/main/screenshot/3.png" width="320" height="480">
+<img src="https://github.com/panchalamitr/FoodDelivery/blob/main/screenshot/1.png" width="320">
+<img src="https://github.com/panchalamitr/FoodDelivery/blob/main/screenshot/2.png" width="320">
+<img src="https://github.com/panchalamitr/FoodDelivery/blob/main/screenshot/3.png" width="320">
