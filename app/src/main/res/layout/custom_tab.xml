@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/custom_text"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:background="?attr/selectableItemBackground"
+    android:gravity="center"
+    android:paddingLeft="@dimen/_12sdp"
+    android:paddingRight="@dimen/_12sdp"
+    android:textColor="@color/custom_text_state_color"
+    android:textSize="@dimen/_14sdp"
+    android:textStyle="bold">
+
+</TextView>

@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Food Delivery</string>
+
+    <!-- Food Item !-->
+    <string name="food_name">Food Name</string>
+    <string name="food_ingredients">Masala, Dhosa, aadu, papad, chatni</string>
+    <string name="food_size">190 grams, 40 cm</string>
+    <string name="lbl_delivery_free">Delivery is free</string>
+    <string name="lbl_value">Value:</string>
+
+    <!-- Food Main Activity !-->
+    <string name="lbl_filters">FILTERS</string>
+    <string name="lbl_spicy">Spicy</string>
+    <string name="lbl_vegan">Vegan</string>
+</resources>

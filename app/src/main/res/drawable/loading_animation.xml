@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+
+        <shape android:shape="rectangle">
+
+            <size
+                android:width="200dp"
+                android:height="200dp" />
+
+            <solid android:color="#00FFFFFF" />
+        </shape>
+    </item>
+
+    <item android:gravity="center">
+        <animated-rotate xmlns:android="http://schemas.android.com/apk/res/android"
+            android:drawable="@drawable/ic_progress_animation"
+            android:pivotX="50%"
+            android:pivotY="50%" />
+    </item>
+</layer-list>

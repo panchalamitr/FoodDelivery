@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:padding="@dimen/_5sdp">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/ivFoodImage"
+        android:layout_width="@dimen/_80sdp"
+        android:layout_height="@dimen/_80sdp"
+        android:layout_margin="@dimen/_5sdp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/howcuttingdo" />
+
+    <TextView
+        android:id="@+id/tvFoodName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_5sdp"
+        android:layout_weight="1"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/_10ssp"
+        android:textStyle="bold"
+        tools:text="@string/food_name" />
+
+    <TextView
+        android:id="@+id/tvFoodPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="@dimen/_5sdp"
+        android:textColor="@android:color/black"
+        tools:text="56 USD" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/ivFoodRemove"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/_5sdp"
+        android:src="@android:drawable/ic_menu_delete" />
+
+</androidx.appcompat.widget.LinearLayoutCompat>

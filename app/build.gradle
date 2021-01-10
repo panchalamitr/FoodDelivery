@@ -1,0 +1,119 @@
+plugins {
+    id 'com.android.application'
+    id 'kotlin-android'
+    id 'kotlin-android-extensions'
+    id 'kotlin-kapt'
+    id 'androidx.navigation.safeargs.kotlin'
+}
+
+android {
+    compileSdkVersion 30
+    buildToolsVersion "30.0.3"
+
+    defaultConfig {
+        applicationId "com.demo.fooddelivery"
+        minSdkVersion 23
+        targetSdkVersion 30
+        versionCode 1
+        versionName "1.0"
+        multiDexEnabled true
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildFeatures {
+        viewBinding true
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    kotlinOptions {
+        jvmTarget = '1.8'
+    }
+}
+
+    dependencies {
+
+
+        implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlinVersion"
+        implementation "androidx.core:core-ktx:$ktxVersion"
+        implementation "androidx.multidex:multidex:$multidexVersion"
+        implementation "androidx.appcompat:appcompat:$appCompatVersion"
+        implementation "com.google.android.material:material:$materialVersion"
+        implementation "androidx.constraintlayout:constraintlayout:$constraintLayoutVersion"
+        testImplementation "junit:junit:$junitVersion"
+        androidTestImplementation "androidx.test.ext:junit:$testExtJunitVersion"
+        androidTestImplementation "androidx.test.espresso:espresso-core:$espressoVersion"
+
+        implementation 'com.ogaclejapan.smarttablayout:library:2.0.0@aar'
+
+        implementation "androidx.core:core-ktx:$androidCoreKtx"
+
+        //Optional: see how to use the utility.
+        implementation 'com.ogaclejapan.smarttablayout:utils-v4:2.0.0@aar'
+
+        // Fragment
+        implementation "androidx.fragment:fragment-ktx:$fragmentVersion"
+
+        // Lifecycle + ViewModel & LiveData
+        implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:$lifecycleVersion"
+        implementation "androidx.lifecycle:lifecycle-livedata-ktx:$lifecycleVersion"
+        implementation "android.arch.lifecycle:common-java8:$lifecycleVersion"
+
+        // Navigation Component
+        implementation "androidx.navigation:navigation-fragment-ktx:$navigationVersion"
+        implementation "androidx.navigation:navigation-ui-ktx:$navigationVersion"
+
+        implementation "com.intuit.sdp:sdp-android:$intuitSDP"
+        implementation "com.intuit.ssp:ssp-android:$intuitSSP"
+        // Coroutines
+        implementation "org.jetbrains.kotlinx:kotlinx-coroutines-core:$coroutinesVersion"
+        implementation "org.jetbrains.kotlinx:kotlinx-coroutines-android:$coroutinesVersion"
+
+        //rounded corner
+        implementation "com.rishabhharit.roundedimageview:RoundedImageView:$roundedImageViewVersion"
+
+        //Floating action button with counter badge
+        implementation "com.github.andremion:counterfab:$counterFabVersion"
+        //Event Bus for communication
+        implementation "org.greenrobot:eventbus:$eventBusVersion"
+        //Store data
+        implementation "io.paperdb:paperdb:$paperDBVersion"
+        //Logging data
+        implementation "com.jakewharton.timber:timber:$timberVersion"
+
+        /** Kotlin Coroutine **/
+        implementation "org.jetbrains.kotlinx:kotlinx-coroutines-jdk8:$coroutinesVersion"
+
+        /** Network Operation **/
+        implementation "com.squareup.retrofit2:retrofit:$retrofitVersion"
+        implementation "com.squareup.retrofit2:converter-gson:$retrofitVersion"
+        implementation "com.squareup.okhttp3:okhttp:$okhttpVersion"
+        implementation("com.github.ihsanbal:LoggingInterceptor:$httpLogInterceptorVersion") {
+            exclude group: 'org.json', module: 'json'
+        }
+
+        /** Handle Network Error Response **/
+        implementation "com.github.haroldadmin:NetworkResponseAdapter:4.0.1"
+
+        /** Image Loading **/
+        implementation("com.squareup.picasso:picasso:$picassoVersion") {
+            exclude group: "com.android.support"
+        }
+
+        //Mavric Architecture by Airbnb
+        implementation "com.airbnb.android:mvrx:$mvrxVersion"
+        // DataStore
+        implementation "androidx.datastore:datastore-preferences:$dataStoreVersion"
+    }
+
+kapt {
+    correctErrorTypes true
+}
