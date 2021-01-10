@@ -14,13 +14,13 @@ Also I have used following things
   - RoundedImageView
 
 
-**Video**
+## Video
 
 
 [![Everything Is AWESOME](https://github.com/panchalamitr/FoodDelivery/blob/main/screenshot/FoodDeliverAppYouTube.png)](https://www.youtube.com/watch?v=lTd2gEEzjaI "Everything Is AWESOME")
   
 
-**Screenshots**
+## Screenshots
 
 <img src="https://github.com/panchalamitr/FoodDelivery/blob/main/screenshot/1.png" width="320">
 <img src="https://github.com/panchalamitr/FoodDelivery/blob/main/screenshot/2.png" width="320">
