@@ -18,6 +18,7 @@ Also I have used following things
 https://youtu.be/lTd2gEEzjaI
 
 **Screenshots**
-![](https://github.com/panchalamitr/FoodDelivery/blob/main/screenshot/1.png =320x480)
-![](https://github.com/panchalamitr/FoodDelivery/blob/main/screenshot/2.png =320x480)
-![](https://github.com/panchalamitr/FoodDelivery/blob/main/screenshot/3.png =320x480)
+
+<img src="https://github.com/panchalamitr/FoodDelivery/blob/main/screenshot/1.png" width="320" height="480">
+<img src="https://github.com/panchalamitr/FoodDelivery/blob/main/screenshot/2.png" width="320" height="480">
+<img src="https://github.com/panchalamitr/FoodDelivery/blob/main/screenshot/3.png" width="320" height="480">
